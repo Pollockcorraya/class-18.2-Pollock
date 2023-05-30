@@ -1,0 +1,70 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500&family=Roboto+Slab:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Domine', serif;
+}
+/* Common CSS */
+h2 {
+    text-transform: capitalize;
+    color:#273863 ;
+}
+p {
+    font-size: .95rem;
+}
+#header {
+    background-color: #F4F7FC;
+    height: 100vh;
+}
+.logo {
+    color: #273863;
+    font-weight: bolder;
+}
+.logo span {
+    color: #C73A2F;
+}
+.active {
+    color: #C73A2F !important;
+}
+.nav-item a {
+    margin-right: 15px;
+    color: #273863;
+    font-weight: bolder;
+}
+.dropdown-menu li a {
+    color: #000;
+    font-weight: normal;
+}
+.navbar button {
+    color: #273863;
+    border: 1px solid #273863;
+}
+
+/* Banner CSS */
+.banner {
+    margin-top: 5%;
+}
+h1 {
+    color: #273863;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+h6 {
+     color: #C73A2F;
+}
+h6 span {
+    color: #273863;
+}
+.banner-btn {
+    background-color: #375877;
+    color: #F4F7FC;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-size: .85rem;
+}
