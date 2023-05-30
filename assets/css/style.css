@@ -17,10 +17,16 @@ h2 {
 }
 p {
     font-size: .95rem;
+    font-family: 'Domine', serif;
 }
+section {
+    padding: 8% 0;
+}
+
+/* Header CSS */
 #header {
     background-color: #F4F7FC;
-    height: 100vh;
+    max-height: 845px;
 }
 .logo {
     color: #273863;
@@ -67,4 +73,28 @@ h6 span {
     text-transform: uppercase;
     border-radius: 50px;
     font-size: .85rem;
+}
+.banner-img img {
+    width: 100%;
+}
+
+/* About CSS */
+#about {
+    margin-top: 10%;
+}
+#about .about-img {
+    position: relative;
+}
+#about .book-page-1 {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    width: 76%;
+    height: 83%;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+}
+.about-btn {
+    background-color: #C73A2F;
+    color: #F4F7FC;
 }
