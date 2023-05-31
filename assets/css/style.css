@@ -21,7 +21,7 @@ p {
     font-family: 'Domine', serif;
 }
 section {
-    padding: 8% 0;
+    padding: 6% 0;
 }
 
 /* Header CSS */
@@ -172,4 +172,24 @@ h6 span {
     max-height: 359px;
     z-index: 99999;
 }
+/* Device CSS */
+.icon .img {
+    width: 5%;
+    height: 5%;
+}
+.icon .img img {
+    width: 100%;
+}
 
+.device-text {
+    line-height: 30px;
+}
+#device p {
+    line-height: 30px;
+}
+.device-btn {
+    background-color: #C73A2F;
+    color: #F4F7FC;
+    border-radius: 50px;
+    padding: 10px 25px;
+}
