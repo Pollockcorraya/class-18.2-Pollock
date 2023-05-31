@@ -13,7 +13,8 @@ body {
 /* Common CSS */
 h2 {
     text-transform: capitalize;
-    color:#273863 ;
+    color:#273863;
+    font-weight: bold;
 }
 p {
     font-size: .95rem;
@@ -98,3 +99,46 @@ h6 span {
     background-color: #C73A2F;
     color: #F4F7FC;
 }
+.about-content {
+    margin-top: 55px;
+}
+.content {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 15px;
+}
+.content .img img {
+    width: 50px;
+}
+.content p {
+    line-height: 28px;
+    color: #A7AAB8;
+}
+.about-announcement {
+    background-color: #F4F7FC;
+}
+.about-announcement p {
+    font-size: 3rem;
+}
+.about-announcement .philosopher {
+    color: #C73A2F;
+    font-size: 1rem;
+}
+
+/* Chapter CSS */
+.chapter-item {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 30px;
+    margin-bottom: 25px;
+}
+.chapter-item h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #C73A2F;
+    font-size: 1.2rem;
+}
+
+#chapter .chapter-item p {
+    color: #A7AAB8;
+    font-size: 1rem;
+}
+
