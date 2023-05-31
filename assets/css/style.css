@@ -141,4 +141,35 @@ h6 span {
     color: #A7AAB8;
     font-size: 1rem;
 }
+/* Review CSS */
+.review-item {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #fff;
+}
+.review-item img {
+    border-radius: 100%;
+    width: 25%;
+}
+.fa-star {
+    color: #C73A2F;
+}
+.review-item p {
+    color: #A7AAB8; 
+    line-height: 30px;
+}
+#review .bottom-background {
+    height: 365px;
+    background-color:#F4F7FC;
+    width: 100%;
+}
+.review {
+    display: flex;
+    flex-direction: column;
+}
+
+.review .container {
+    min-height: 352px;
+    max-height: 359px;
+    z-index: 99999;
+}
 
