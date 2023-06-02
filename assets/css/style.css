@@ -9,16 +9,19 @@
 
 body {
     font-family: 'Domine', serif;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 /* Common CSS */
 h2 {
-    text-transform: capitalize;
     color:#273863;
     font-weight: bold;
+    font-size: 2.3rem;
 }
 p {
     font-size: .95rem;
     font-family: 'Domine', serif;
+    color: #9FA2AB;
 }
 section {
     padding: 6% 0;
@@ -86,6 +89,17 @@ h6 span {
 #about .about-img {
     position: relative;
 }
+.about-text ul li {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    font-weight: bold;
+    font-size: .8rem;
+}
+.about-text ul li a {
+    color: #273863;
+}
+.check {
+    color: #C73A2F;
+}
 #about .book-page-1 {
     position: absolute;
     top: 49%;
@@ -106,8 +120,17 @@ h6 span {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 15px;
 }
-.content .img img {
-    width: 50px;
+.content .b-icon {
+    font-size: 50px;
+    color: #C73A2F;
+    font-weight: 100;
+    
+}
+.rocket {
+    color: #698F64 !important;
+}
+.envelop {
+    color: #E8C82C !important;
 }
 .content p {
     line-height: 28px;
@@ -117,7 +140,8 @@ h6 span {
     background-color: #F4F7FC;
 }
 .about-announcement p {
-    font-size: 3rem;
+    font-size: 2.3rem;
+    color: #444651;
 }
 .about-announcement .philosopher {
     color: #C73A2F;
@@ -184,6 +208,9 @@ h6 span {
 .device-text {
     line-height: 30px;
 }
+#device h2 {
+    font-size: 1.5rem;
+}
 #device p {
     line-height: 30px;
 }
@@ -192,4 +219,179 @@ h6 span {
     color: #F4F7FC;
     border-radius: 50px;
     padding: 10px 25px;
+}
+
+/* Writer CSS */
+#writer {
+    position: relative;
+}
+.writer-image {
+    position: absolute;
+    z-index: 9;
+    left: 10%;
+    top: 16%;
+}
+.writer-image .img {
+    width: 90%;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.writer-image .img img {
+    border-radius: 5px;
+}
+.writer-content {
+    height: 778px;
+    background-color: #F4F7FC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px 0 0 20px;
+    padding: 0 25%;
+}
+.writer-text {
+    position: relative;
+}
+.writer-content h3{
+    font-weight: bold;
+}
+.writer-content p{
+    color: #ADB3BE;
+}
+.writer-content .img {
+    width: 80%;
+}
+
+
+/* Award CSS */
+.award-item img {
+    width: 100%;
+}
+.award-text h2 {
+    line-height: 46px;
+}
+.award-item {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    text-align: center;
+    padding: 25px 0;
+}
+.award-item h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+/* Author CSS */
+.author-text p {
+    font-size: .75rem;
+}
+.author-image .img img {
+    width: 100%;
+}
+/* Article CSS */
+article {
+    padding: 7% 0;
+}
+.article-text p {
+    font-size: .75rem;
+}
+.article-image .card img {
+    width: 100%;
+}
+.article-image p {
+    font-size: .8rem;
+}
+.article-image span {
+    color: #000;
+    font-weight: bold;
+}
+.article-image h5 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #273863;
+}
+.article-image .img img {
+    width: 100%;
+}
+
+/* Content CSS */
+#contact {
+    background-color: #F4F7FC;
+}
+.content-text p {
+    font-size: .85rem;
+}
+.contact {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    text-align: center;
+    padding: 60px;
+    background-color: #fff;
+}
+.contact  h3 {
+    font-size: 1rem;    
+    font-weight: bold;    
+    margin-top: 5px;
+}
+.contact .icon {
+    font-size: 38px;
+    color: #C73A2F;
+    margin-bottom: 20px;
+}
+.location {
+    padding: 60px 54px ;
+}
+
+/* footer CSS */
+footer {
+    padding: 7% 0;
+    background-color: #FEFEFE;
+}
+.footer-widget h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #273863;  
+    margin-bottom: 20px;  
+}
+.footer-widget p {
+    color: #B1B3BD;
+    font-size: 1rem;
+}
+.footer-widget input {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    padding: 10px 5px;
+    border: 1px solid #fff;
+    color: #B1B3BD;
+}
+.footer-widget input::placeholder {
+    color: #B1B3BD;
+}
+.footer-widget input:focus {
+    outline: none;
+}
+.footer-btn {
+    background-color: #395676;
+    color: #F4F7FC;
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+.main-footer p  {
+    color: #375877;
+}
+.main-footer {
+    margin-top: 40px;
+    border-top: 1px solid #F4F7FC;
+}
+.main-footer span {
+    color: #C73A2F;
+}
+.main-footer .img img {
+    width: 60%;
+}
+.main-footer-item {
+
 }
